@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.card-3.relative {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    background: #673ab7;
+    scale: 0.8;
+    padding: 1rem;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.card-3-img-holder.move-bg {
+   
+    background: transparent;
+}
+
+.card-3-skill-holder {
+    display: flex;
+    /* gap: 0.5rem; */
+    flex-wrap: wrap;
+}
+.card-3-text-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 5px;
+    background: #ffffff;
+    color: #4c4a4a;
+    border-radius: 10px;
+}
